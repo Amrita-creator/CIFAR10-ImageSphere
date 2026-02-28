@@ -5,8 +5,6 @@ This project implements a Convolutional Neural Network (CNN) using PyTorch to pe
 
 The final trained model achieves a **test accuracy of approximately 75.85%**.
 
----
-
 ## Dataset
 The project uses the CIFAR-10 dataset, which contains:
 
@@ -17,7 +15,6 @@ The project uses the CIFAR-10 dataset, which contains:
 
 Note: The dataset is automatically downloaded using `download=True` in torchvision when running the script.
 
----
 
 ## Model Architecture
 The CNN model includes:
@@ -30,7 +27,6 @@ The CNN model includes:
 
 The model is trained using categorical cross-entropy loss and optimized using backpropagation.
 
----
 
 ## Training & Validation
 - Training loss and validation loss were calculated during training.
@@ -38,13 +34,11 @@ The model is trained using categorical cross-entropy loss and optimized using ba
 - Validation loss initially decreased and later increased after certain epochs, indicating overfitting.
 - The best-performing model (lowest validation loss) was saved and used for final test evaluation.
 
----
 
 ## Results
 - Test Accuracy: **~75.85%**
 - Loss curves were used to analyze convergence and generalization behavior.
 
----
 
 ## Requirements
 - Python 3.x
@@ -57,7 +51,6 @@ You can install the required libraries using:
 
 pip install torch torchvision numpy matplotlib
 
----
 
 ## How to Run
 
@@ -75,7 +68,6 @@ pip install torch torchvision numpy matplotlib
 
 The CIFAR-10 dataset will be downloaded automatically if not already present.
 
----
 
 ## Conclusion
 This project demonstrates the practical implementation of a CNN for multi-class image classification using CIFAR-10. It highlights the importance of monitoring validation loss to detect overfitting and selecting the best-performing model for evaluation.
